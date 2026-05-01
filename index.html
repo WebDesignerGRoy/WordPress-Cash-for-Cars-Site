@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cars4Rent – Best Worldwide Car Hire Deals</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <span><i class="fas fa-phone"></i> +1 800 123 4567</span>
+        <span><i class="fas fa-envelope"></i> info@cars4rent.com</span>
+        <div class="top-bar-right">
+          <a href="#">Sign In</a>
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="container navbar-inner">
+        <a href="#" class="logo">
+          <span class="logo-icon"><i class="fas fa-car"></i></span>
+          <span class="logo-text">CARS<em>4</em>RENT</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Fleet</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>BEST WORLDWIDE<br /><span>CAR HIRE DEALS</span></h1>
+      <p>We have locations on 6 worldwide continents</p>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar-wrap">
+      <div class="container">
+        <div class="search-bar">
+          <p class="search-title">SEARCH FOR CAR RENTAL</p>
+          <div class="search-fields">
+            <div class="field-group">
+              <label>Pick-Up Location</label>
+              <input type="text" placeholder="City, Airport, Station..." />
+            </div>
+            <div class="field-group">
+              <label>Pick-Up Date</label>
+              <input type="date" />
+            </div>
+            <div class="field-group">
+              <label>Drop-Off Date</label>
+              <input type="date" />
+            </div>
+            <div class="field-group">
+              <label>Car Type</label>
+              <select>
+                <option>All Types</option>
+                <option>Economy</option>
+                <option>Luxury</option>
+                <option>SUV</option>
+                <option>Van</option>
+              </select>
+            </div>
+            <button class="btn-search">SEARCH</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services section">
+    <div class="container">
+      <h2 class="section-title">LOOKING FOR THE RIGHT SERVICE?</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?w=400&q=80" alt="Business Rentals" />
+          </div>
+          <h3>BUSINESS RENTALS</h3>
+          <p>Perfect solutions for corporate travel with premium fleet options and flexible plans for professionals.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&q=80" alt="Luxury Rentals" />
+          </div>
+          <h3>LUXURY RENTALS</h3>
+          <p>Experience the finest vehicles available. Drive in style with our exclusive luxury collection.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&q=80" alt="Travelling Rentals" />
+          </div>
+          <h3>TRAVELLING RENTALS</h3>
+          <p>Hit the open road comfortably. Ideal rental solutions for long-distance travel and family trips.</p>
+        </div>
+      </div>
+      <div class="center-btn">
+        <a href="#" class="btn-dark">BROWSE ALL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section class="why-us">
+    <div class="container why-us-grid">
+      <div class="why-us-text">
+        <h2>WHY CHOOSE US?</h2>
+        <ul class="check-list">
+          <li><i class="fas fa-check-circle"></i> 24/7 Customer Support</li>
+          <li><i class="fas fa-check-circle"></i> Best Price Guarantee</li>
+          <li><i class="fas fa-check-circle"></i> Wide Selection of Vehicles</li>
+          <li><i class="fas fa-check-circle"></i> No Hidden Charges</li>
+          <li><i class="fas fa-check-circle"></i> Easy & Fast Booking</li>
+        </ul>
+        <a href="#" class="btn-dark">READ MORE</a>
+      </div>
+      <div class="why-us-image">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=700&q=80" alt="Car on road" />
+        <div class="why-us-banner">
+          <p>THIS<br /><strong>SUMMER,<br />GO BEYOND</strong></p>
+          <a href="#" class="btn-orange">GET MORE INFO</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FLEET / MEET OUR CARS ===================== -->
+  <section class="fleet section">
+    <div class="container">
+      <h2 class="section-title">MEET OUR CARS</h2>
+
+      <!-- Filter Tabs -->
+      <div class="fleet-tabs">
+        <button class="tab active" data-filter="all">ALL</button>
+        <button class="tab" data-filter="economy">ECONOMY</button>
+        <button class="tab" data-filter="luxury">LUXURY</button>
+        <button class="tab" data-filter="suv">SUV</button>
+        <button class="tab" data-filter="van">VAN</button>
+        <button class="tab" data-filter="sports">SPORTS</button>
+      </div>
+
+      <div class="fleet-grid">
+        <!-- Car 1 -->
+        <div class="car-card" data-cat="economy">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=400&q=80" alt="Honda Civic" />
+          </div>
+          <div class="car-info">
+            <h4>HONDA CIVIC</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 5</span>
+              <span><i class="fas fa-cog"></i> Auto</span>
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$35<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Car 2 -->
+        <div class="car-card" data-cat="suv">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=400&q=80" alt="Ford Galaxy" />
+          </div>
+          <div class="car-info">
+            <h4>FORD GALAXY</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 7</span>
+              <span><i class="fas fa-cog"></i> Auto</span>
+              <span><i class="fas fa-gas-pump"></i> Diesel</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$55<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Car 3 -->
+        <div class="car-card" data-cat="suv">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400&q=80" alt="Dodge New Yorker" />
+          </div>
+          <div class="car-info">
+            <h4>DODGE NEW YORKER</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 5</span>
+              <span><i class="fas fa-cog"></i> Manual</span>
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$48<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Car 4 -->
+        <div class="car-card" data-cat="economy">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=400&q=80" alt="Toyota Prius" />
+          </div>
+          <div class="car-info">
+            <h4>TOYOTA PRIUS</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 5</span>
+              <span><i class="fas fa-cog"></i> Auto</span>
+              <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$42<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Car 5 -->
+        <div class="car-card" data-cat="suv">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=400&q=80" alt="Toyota RAV4" />
+          </div>
+          <div class="car-info">
+            <h4>TOYOTA RAV 4</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 5</span>
+              <span><i class="fas fa-cog"></i> Auto</span>
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$60<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- Car 6 -->
+        <div class="car-card" data-cat="economy">
+          <div class="car-img-wrap">
+            <img src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=400&q=80" alt="Ford Focus" />
+          </div>
+          <div class="car-info">
+            <h4>FORD FOCUS</h4>
+            <div class="car-meta">
+              <span><i class="fas fa-users"></i> 5</span>
+              <span><i class="fas fa-cog"></i> Manual</span>
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+            </div>
+            <div class="car-price">
+              <span class="price-label">from</span>
+              <span class="price">$30<small>/day</small></span>
+              <a href="#" class="btn-rent">RENT NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-btn">
+        <a href="#" class="btn-dark">BROWSE ALL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AVAILABLE CARS BANNER ===================== -->
+  <section class="cars-banner">
+    <div class="cars-banner-overlay"></div>
+    <div class="container cars-banner-content">
+      <div class="cars-stat">
+        <h2>12 640</h2>
+        <p>AVAILABLE CARS</p>
+        <a href="#" class="btn-orange">BROWSE ALL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="how-it-works section">
+    <div class="container">
+      <h2 class="section-title">HOW IT WORKS?</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h4>APPLY THE APP</h4>
+          <p>Download our app and easily browse through thousands of available vehicles near you.</p>
+        </div>
+        <div class="step">
+          <div class="step-icon"><i class="fas fa-car"></i></div>
+          <h4>CHOOSE A CAR</h4>
+          <p>Select from a wide range of vehicles that match your needs and budget requirements.</p>
+        </div>
+        <div class="step">
+          <div class="step-icon"><i class="fas fa-key"></i></div>
+          <h4>PICK UP A CARS</h4>
+          <p>Pick up your chosen car at the agreed time and location. We make it easy and seamless.</p>
+        </div>
+        <div class="step">
+          <div class="step-icon"><i class="fas fa-road"></i></div>
+          <h4>ENJOY DRIVING</h4>
+          <p>Hit the road and enjoy your journey. Return the car when you're done — no hassle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHAT'S NEW / BLOG ===================== -->
+  <section class="whats-new">
+    <div class="container whats-new-grid">
+      <div class="blog-posts">
+        <h2>WHAT'S NEW?</h2>
+        <div class="blog-list">
+          <div class="blog-item">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=200&q=80" alt="Blog 1" />
+            <div class="blog-item-text">
+              <span class="blog-date"><i class="fas fa-calendar"></i> March 15, 2026</span>
+              <h4>Top 5 Tips for Renting a Car on Your Next Holiday</h4>
+              <p>Planning ahead saves money. Here's what experienced travellers know before booking.</p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=200&q=80" alt="Blog 2" />
+            <div class="blog-item-text">
+              <span class="blog-date"><i class="fas fa-calendar"></i> April 2, 2026</span>
+              <h4>Electric Vehicle Rentals Are On The Rise Globally</h4>
+              <p>Sustainability meets convenience — EV rentals doubled in the past year worldwide.</p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80" alt="Blog 3" />
+            <div class="blog-item-text">
+              <span class="blog-date"><i class="fas fa-calendar"></i> April 18, 2026</span>
+              <h4>Summer Road Trip Ideas Across Europe &amp; North America</h4>
+              <p>Discover the best scenic routes for your summer getaway with a rental car.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="whats-new-banner">
+        <div class="whats-new-banner-overlay"></div>
+        <div class="whats-new-banner-content">
+          <p>THIS<br /><strong>SUMMER,<br />GO BEYOND</strong></p>
+          <a href="#" class="btn-orange">GET MORE INFO</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COUPONS & DEALS ===================== -->
+  <section class="coupons section">
+    <div class="container coupons-grid">
+      <div class="coupon-testimonial">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <p>"The best private fleet absolutely and professionally! So glad to have found this amazing service for car hire."</p>
+        <span class="testimonial-author">— Sarah Mitchell, New York</span>
+        <a href="#" class="btn-dark-sm">READ MORE</a>
+      </div>
+      <div class="coupon-deals">
+        <h2>COUPONS AND DEALS</h2>
+        <p>Take advantage of our exclusive deals and seasonal promotions. Whether you need a car for a weekend getaway or an extended business trip, we have the perfect offer waiting just for you. Sign up for our newsletter and never miss a deal again.</p>
+        <a href="#" class="btn-orange">SPECIAL DEALS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== APP BANNER ===================== -->
+  <section class="app-banner">
+    <div class="app-banner-overlay"></div>
+    <div class="container app-banner-content">
+      <div class="app-text">
+        <h2>SAVE 30% WITH<br /><strong>THE APP</strong></h2>
+        <a href="#" class="btn-app"><i class="fab fa-google-play"></i> DOWNLOAD ON GOOGLE PLAY</a>
+      </div>
+      <div class="app-phone">
+        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=300&q=80" alt="App on phone" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RATES & PLANS ===================== -->
+  <section class="rates section">
+    <div class="container">
+      <h2 class="section-title">RATES &amp; PLANS</h2>
+      <div class="plans-grid">
+        <div class="plan-card">
+          <div class="plan-header plan-occasional">
+            <h3>OCCASIONAL DRIVES</h3>
+            <p>Our most popular plan, great for part-time city drivers.</p>
+          </div>
+          <div class="plan-body">
+            <div class="plan-price">
+              <del>$55</del>
+              <span class="big-price">$35<small>/day</small></span>
+            </div>
+            <ul>
+              <li><i class="fas fa-check"></i> Unlimited Miles</li>
+              <li><i class="fas fa-check"></i> Basic Insurance</li>
+              <li><i class="fas fa-check"></i> 24/7 Support</li>
+              <li><i class="fas fa-times"></i> GPS Navigation</li>
+              <li><i class="fas fa-times"></i> Priority Service</li>
+            </ul>
+            <a href="#" class="btn-plan">READ MORE</a>
+          </div>
+        </div>
+        <div class="plan-card plan-featured">
+          <div class="plan-header plan-monthly">
+            <h3>MONTHLY DRIVING PLAN</h3>
+            <p>The best choice for commuters and long-term planners.</p>
+          </div>
+          <div class="plan-body">
+            <div class="plan-price">
+              <del>$25</del>
+              <span class="big-price">$17<small>/day</small></span>
+            </div>
+            <ul>
+              <li><i class="fas fa-check"></i> Unlimited Miles</li>
+              <li><i class="fas fa-check"></i> Full Insurance</li>
+              <li><i class="fas fa-check"></i> 24/7 Support</li>
+              <li><i class="fas fa-check"></i> GPS Navigation</li>
+              <li><i class="fas fa-times"></i> Priority Service</li>
+            </ul>
+            <a href="#" class="btn-plan">READ MORE</a>
+          </div>
+        </div>
+        <div class="plan-card">
+          <div class="plan-header plan-extra">
+            <h3>EXTRA VALUE</h3>
+            <p>Perfect if you need extra vehicle models all year around.</p>
+          </div>
+          <div class="plan-body">
+            <div class="plan-price">
+              <del>$70</del>
+              <span class="big-price">$50<small>/day</small></span>
+            </div>
+            <ul>
+              <li><i class="fas fa-check"></i> Unlimited Miles</li>
+              <li><i class="fas fa-check"></i> Full Insurance</li>
+              <li><i class="fas fa-check"></i> 24/7 Support</li>
+              <li><i class="fas fa-check"></i> GPS Navigation</li>
+              <li><i class="fas fa-check"></i> Priority Service</li>
+            </ul>
+            <a href="#" class="btn-plan">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT US ===================== -->
+  <section class="contact section">
+    <div class="container contact-grid">
+      <div class="contact-form-wrap">
+        <h2>CONTACT US</h2>
+        <form class="contact-form" onsubmit="return false;">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Your Message" rows="5"></textarea>
+          <button type="submit" class="btn-orange">SEND</button>
+        </form>
+      </div>
+      <div class="contact-map">
+        <!-- Placeholder map -->
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059353029!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1714000000000"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info-boxes">
+          <div class="info-box"><i class="fas fa-phone"></i><span>+1 800 123 4567</span></div>
+          <div class="info-box"><i class="fas fa-envelope"></i><span>info@cars4rent.com</span></div>
+          <div class="info-box"><i class="fas fa-map-marker-alt"></i><span>123 Fleet Street, NY 10001</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PARTNER LOGOS ===================== -->
+  <section class="partners">
+    <div class="container partners-inner">
+      <div class="partner-logo"><i class="fab fa-ford" style="font-size:2rem;"></i> <span>Ford</span></div>
+      <div class="partner-logo"><span class="brand-text">Toyota</span></div>
+      <div class="partner-logo"><span class="brand-text">Honda</span></div>
+      <div class="partner-logo"><span class="brand-text">BMW</span></div>
+      <div class="partner-logo"><span class="brand-text">Mercedes</span></div>
+      <div class="partner-logo"><span class="brand-text">Audi</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="#" class="logo logo-footer">
+          <span class="logo-icon"><i class="fas fa-car"></i></span>
+          <span class="logo-text">CARS<em>4</em>RENT</span>
+        </a>
+        <p>We offer the best worldwide car hire deals with exceptional service and a wide selection of vehicles for every need and budget.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>RECENT POSTS</h4>
+        <ul class="footer-posts">
+          <li>
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=80&q=70" alt="" />
+            <div>
+              <a href="#">Top 5 Tips for Renting a Car on Your Next Holiday</a>
+              <span>March 15, 2026</span>
+            </div>
+          </li>
+          <li>
+            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=80&q=70" alt="" />
+            <div>
+              <a href="#">Electric Vehicle Rentals Are On The Rise</a>
+              <span>April 2, 2026</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>NEWSLETTER SIGNUP</h4>
+        <p>Subscribe to our newsletter and get the latest deals and news delivered to your inbox.</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Your email address" />
+          <button class="btn-orange">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Cars4Rent. All Rights Reserved. Designed with <i class="fas fa-heart" style="color:#f90;"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
